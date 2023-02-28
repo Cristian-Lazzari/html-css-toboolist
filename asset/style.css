@@ -6,6 +6,8 @@ body{
     background-color: lightgray;
 }
 header{
+    padding: 0.5em;
+    height: 80px;
     width: 100vw;
     position: relative;
     background-color:white;
@@ -14,14 +16,14 @@ header{
 .title-page{
     float: left;
     left: 9%;
-    top: 1%;
+    top: 1vh;
     font-size: 1.2em;
 }
   
 .logo{
     float: left;
     left: 2%;
-    top: 1%;
+    top: 1vh;
 }
 .container{
     width: 60vw;
@@ -33,14 +35,14 @@ header{
     padding-top: 3%;
     padding-left: 5%;
     margin-top: 5px;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 .nav-container{
     margin-bottom: 20px;
     width: 60vw;
     
     margin: auto;
-    margin-top: 15vh;
+    margin-top: 10vh;
     background-color: white;      
     padding-top: 1%;
     padding-bottom: 1%;
@@ -79,6 +81,32 @@ header{
 }
 ul{
     list-style: none;
-    margin-block-end: 0;
-    margin-bottom: 10px;
+    padding-inline-start: 0;
+    margin-bottom: 3em;
+}
+li{
+    margin-bottom: 0.6em;
+}
+.first-element{
+    margin-top: 0.5em;
+}
+.flag-1{
+    background-color: aqua;
+    border: solid 3px aqua ;
+}
+
+.flag-2{
+    background-color: rgb(104, 232, 65);
+    border: solid 3px rgb(104, 232, 65) ;
+}
+
+.flag-3{
+    background-color: rgb(207, 43, 219);
+    border: solid 3px rgb(207, 43, 219);
+}
+
+.flag-1, .flag-2, .flag-3{
+    border-radius: 20px;
+    color: white;
+    font-size: smaller;
 }
