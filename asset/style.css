@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    padding:  1.5em;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    background-color:white;
+    float: none;
+}
+.title-page{
+    float: left;
+    left: 10%;
+    top: 3%;
+}
+  
+.logo{
+    float: left;
+    left: 3%;
+    top: 3%;
+}
