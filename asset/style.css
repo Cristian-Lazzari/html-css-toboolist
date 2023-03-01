@@ -14,26 +14,24 @@ header{
     float: none;
 }
 .title-page{
-    float: left;
-    left: 9%;
-    top: 1vh;
-    font-size: 1.2em;
+    display: inline;
+    vertical-align: middle;
 }
   
 .logo{
-    float: left;
-    left: 2%;
-    top: 1vh;
+    vertical-align: middle;
+   
 }
 .container{
     width: 60vw;
-    height: 80vh;
+   
     margin: auto;
     background-color: white;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     padding-top: 3%;
     padding-left: 5%;
+    padding-bottom: 3%;
     margin-top: 5px;
     margin-bottom: 2vh;
 }
